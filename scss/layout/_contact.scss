@@ -1,0 +1,45 @@
+#bodycontac{
+    background-image: url(../multimedia/img-contacto/fondocontac.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+//MAIN
+
+.section__titulo--contact{
+   @include contacytops__container-titulos;
+    .titulo__contacto{
+      @include titulos__contactytos
+     }
+}
+
+//NAVBARS LINKS ESTILO NEON
+
+.nav__links--box{
+    @include flex(flex,center,center);
+    margin: 1%;
+    margin-right: 10%;
+    padding: 1%;
+    .links__nav{
+        @include flex(flex,center,center);
+        @include ancho-alto(250%,300%);
+        padding: 60%;
+        margin: 15%;
+        border-radius: 20px;
+        box-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px $violeta-oscuro,
+        0 0 30px $violeta-oscuro,
+        0 0 40px $violeta-oscuro,
+        0 0 50px $violeta-oscuro,
+        0 0 60px $violeta-oscuro;
+        &:hover{
+            scale: 1.5;
+            transition: 1s;
+        }
+    }
+}
+

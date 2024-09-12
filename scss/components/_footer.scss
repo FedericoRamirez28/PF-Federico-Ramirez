@@ -1,0 +1,75 @@
+//FOOTER
+
+.pie-pagina{
+    width: 100%;
+    opacity: 70%;
+    background-color: rgb(167, 111, 216);
+
+    .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+        .box h2{
+            color: $violeta-oscuro;
+            font-family: $font-subtitulos;
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+        .box p{
+            color: $violeta-oscuro;
+            font-family: $font-parrafos;
+            margin-bottom: 10px;
+        }
+        .rgbindex{
+            color: rgb(58, 6, 58);
+        }
+        .figure{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .img{
+                width: 250px;
+            }
+        }
+        .red-social a{
+            display: inline-block;
+            text-decoration: none;
+            width: 10%;
+            height: 10%;
+            line-height: 10%;
+            color: #fff;
+            margin-right: 10px;
+            background-color: #0d2033;
+            text-align: center;
+            transition: all 300ms ease;
+
+            &:hover{
+                color: aqua;
+            }
+
+            .logos-footer{
+                width: 60%;
+                height: 60%;
+            }
+        }
+      }
+    }
+.grupo-2{
+    background-color: $violeta-intermedio;
+    padding: 15px 10px;
+    font-family: $font-titulos;
+    text-align: center;
+    color: $violeta-oscuro;
+
+    small{
+        font-size: 15px;
+    }
+
+}

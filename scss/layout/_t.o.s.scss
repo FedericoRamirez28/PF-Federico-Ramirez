@@ -1,0 +1,44 @@
+#bodytos{
+    background-image: url(../multimedia/img-t.o.s/fondotos.jpeg);
+}
+//TITULO
+
+.section__titulo--tos{
+    @include contacytops__container-titulos;
+    width: 100%;
+    .titulo__tos{
+        @include titulos__contactytos;
+        font-size: 300%;
+    }
+
+}   
+    
+// PARRAFOS
+.parrafos__tos{
+    display: flex;
+    font-family: $font-parrafos;
+    color: $color-titulos;
+    margin-left: auto;
+    padding: 2%;
+    line-height: 100%;
+    font-size: 150%;
+    z-index: 1;
+    line-height: 2;
+    font-weight: bold;
+    text-shadow: 1px 0 0 $violeta-oscuro, -1px 0 0 $violeta-oscuro, 0 1px 0 $violeta-oscuro, 0 -1px 0 $violeta-oscuro;
+
+}
+#parrafo__calavera{
+    display: flex;
+    font-family: $font-parrafos;
+    color: $color-titulos;
+    line-height: 100%;
+    margin-left: auto;
+    padding: 2%;
+    font-size: 150%;
+    z-index: 1;
+    line-height: 2;
+    font-weight: bold;
+    text-shadow: 1px 0 0 $violeta-oscuro, -1px 0 0 $violeta-oscuro, 0 1px 0 $violeta-oscuro, 0 -1px 0 $violeta-oscuro;
+    text-decoration: line-through;
+}
